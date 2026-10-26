@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+.container {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #141912;
+  color: #EDF0E6;
+}
+
+@theme {
+  --color-bg: #F3F5EF;
+  --color-bg-dark: #141912;
+
+  --color-surface: #FFFFFF;
+  --color-surface-2: #EDF0E6;
+  --color-surface-dark: #1B221C;
+  --color-surface-2-dark: #212B22;
+
+  --color-ink: #182019;
+  --color-ink-soft: #4B564C;
+  --color-ink-dark: #EDF2E9;
+  --color-ink-soft-dark: #AAB5A6;
+
+  --color-forest: #2F4A3C;
+  --color-forest-dark: #1C2E25;
+  --color-forest-light: #7FA88E;
+
+  --color-gold: #C9A227;
+  --color-gold-soft: #EADFB3;
+  --color-gold-dark: #E0BB4A;
+
+  --color-line: #DBE2D3;
+  --color-line-dark: #2C362D;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+
+@media (max-width: 799px) {
+  .itemSpan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 800px) {
+  .WeekSitting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
